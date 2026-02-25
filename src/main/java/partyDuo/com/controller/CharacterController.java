@@ -58,7 +58,7 @@ public class CharacterController {
 			//캐릭터 어빌리티 정보
 			CharacterAbilityDTO abilityDTO=service.character_ability(ocid);
 			model.addAttribute("abilityDTO", abilityDTO);		
-			log.info("{}", abilityDTO.getAbilityPreset1().getAbilityInfo().get(0));
+//			log.info("{}", abilityDTO.getAbilityPreset1().getAbilityInfo().get(0));
 			//캐릭터 장비 아이템 정보
 			CharacterItemEquipmentDTO itemEquipDTO=service.character_itemEquipment(ocid);
 			model.addAttribute("itemEquipDTO", itemEquipDTO);
